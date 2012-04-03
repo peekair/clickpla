@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div align="center">
+
+<b>This Site Does Not Break Frames!</b>
+<script>
+function approve() {
+	parent.location.href='javascript:approve()';
+}
+function deny() {
+	parent.location.href='javascript:deny()';
+}
+</script>
+<br />
+
+<input type="button" value="Approve" onclick="approve()">
+<input type="button" value="No Change" onclick="parent.window.close()">
+<input type="button" value="Deny Approval" onclick="deny()">
+
+</div>
+
+</body>
+</html>

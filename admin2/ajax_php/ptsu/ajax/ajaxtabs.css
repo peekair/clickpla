@@ -1,0 +1,66 @@
+.shadetabs{
+	padding: 3px 0;
+	margin-left: 0;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	font-size: 12px;
+	list-style-type: none;
+	text-align: left; /*set to left, center, or right to align the menu as desired*/
+	
+}
+
+.shadetabs li{
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+.shadetabs li a{
+	text-decoration: none;
+	padding: 3px 15px;
+	margin-right: 1px;
+	color: #6f6f6f;
+	font-weight: normal;
+	background: url("../../admin2/includes/media/abbg2.gif") bottom right repeat-x #fffff6 !important;
+	border: 1px solid #D8D8D8;
+	border-bottom: 1px solid #d8d8d8;	
+}
+
+
+.shadetabs li a:hover{
+	text-decoration: none;
+	color: #2d2b2b;
+}
+
+.shadetabs li a:active{
+	color: #2d2b2b;
+}
+
+
+.shadetabs li.selected{
+	top: 1px;
+}
+
+.shadetabs li.selected a{ 
+	border: 1px solid #FFB832;
+	font-weight: bold;
+	font-size: 12px;
+	border-bottom: none;
+	border-top: 3px solid #FFB832;
+	background: url("../../admin2/includes/media/abbg.gif") left -15px repeat-x #ffffff !important;
+	color: #f39f00;
+	
+	
+}
+
+.shadetabs li.selected a:hover{ 
+	text-decoration: none;
+}
+
+.contentstyle {
+	border-top: 3px solid #d8d8d8;
+	padding: 10 2 5 2px;
+	width: 100% !important;
+	margin-top: -1px;
+}
+

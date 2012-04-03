@@ -1,0 +1,48 @@
+.form_row_container {
+	width: 400px;
+	height: 25px;
+	margin: 5px 0px 5px 0px;
+	color: black;
+}
+.form_row_title {
+	background-color: #f8f8f8;
+	border: 1px solid #c5c5c5;
+	text-align: right;
+	padding: 1px 5px 1px 5px;
+	margin: 1px 2px 1px 1px;
+	color: black;
+}
+.form_row_value {
+	margin: 1px 1px 1px 2px;
+	text-align: left;
+	background-color: #f8f8f8;
+	border: 1px solid #c5c5c5;
+	padding: 1px 1px 1px 1px;
+	color: black;
+}
+
+.messagebox {
+	border: 1px solid #c8c8c8;
+	background-color: #f8f8f8;
+	width: 400px;
+	font-weight: bold;
+	text-align: center;
+	display: none;
+	margin: 10px;
+}
+
+.borderBox {
+	border: 1px solid #c8c8c8;
+	background-color: #f8f8f8;
+	color: black;
+	padding: 1px 2px 1px 2px;
+	margin: 3px;
+}
+
+.borderBoxSelected {
+	border: 1px solid #c8c8c8;
+	background-color: white;
+	padding: 1px 2px 1px 2px;
+	margin: 3px;
+	color: black;
+}

@@ -1,0 +1,15 @@
+Aurora-MRV5.7.3 -owned
+
+NOTICE
+All Auroragpt sites that are version 4.0.3 are now equipped 
+with a enabled site_info.php file. The public can access site information
+page by visiting http://www.THESITEDOMAIN.COM/index.php?view=site_info 
+Replace THESITEDOMAIN.COM with the site's actual domain then press enter.
+
+This will display which main modules are enabled on the site, and it will display the domain name of the site. This also will prove the site is licensed or not. If the domain on the page shows a different domain than the domain your at, then it is an illegal unlicensed website and will need to be reported to Illusive Web Services or Go Pratt Solutions at gopratt.com or illusive-web.com . 
+
+All site info pages will display the site encryption key. This encryption key will confirm that the site is in fact licensed or unlicensed. A reseller can set up a demo site, and place the encrypted a key on their page and see if the script blocks the site from being viewable and accessible and it will display what domain that encrypted key was licensed for.
+
+
+This version has been fixed and enhanced by MadeRite Scripts a Division of Maderite Hosting.
+Unauthorized distribution of this version other than by Maderite Affiliates Strictly Prohibited.!!!!!

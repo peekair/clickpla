@@ -1,0 +1,49 @@
+<?
+//##############################################
+//#            AURORAGPT Script Copyright owned by Mike Pratt              #
+//#                        ALL RIGHTS RESERVED 2007-2009                        #
+//#                                                                                                 #
+//#        Any illegal use of this script is strictly prohibited unless          # 
+//#        permission is given by the owner of this script.  To sell          # 
+//#        this script you must have a resellers license. Your site          #
+//#        must also use a unique encrypted license key for your         #
+//#        site. Your site must also have site_info module and             #
+//#        key.php file must be in the script unedited. Otherwise         #
+//#        it will be considered as unlicensed and can be shut down    #
+//#        legally by Illusive Web Services. By using AuroraGPT       #
+//#        script you agree not to copy infringe any of the coding     #
+//#        and or create a clone version is also copy infringement   #
+//#        and will be considered just that and legal action will be   #
+//#        taken if neccessary.                                                    #
+//#########################################//   
+$includes[title]="Stage Earnings Information";
+
+
+$sql = $Db1->query("SELECT * FROM xstage ORDER BY stage");
+while($temp=$Db1->fetch_array($sql)) {
+	$list.="
+	<tr>
+		<td>$temp[stage] Clicks</td>
+		<td>$temp[amount] $temp[title]</td>
+		<td>".iif($temp[daily]==1,"Daily","Cumulative")."</td>
+	</tr>";
+}
+
+$includes[content]="
+
+The stage earnings allows you to earn extra bonuses for clicking in the traffic exchange. How it works, is whenever you surf X sites in the exchange, you will be awarded with a bonus. See below for the stage earnings listings.
+
+
+<br /><br />
+<table cellpadding=0 cellspacing=0 width=\"100%\">
+	<tr>
+		<td><b>Stage</b></td>
+		<td><b>Bonus</b></td>
+		<td><b>Type</b></td>
+	</tr>
+	$list
+</table>
+
+";
+
+?>

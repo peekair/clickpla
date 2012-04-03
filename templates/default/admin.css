@@ -1,0 +1,187 @@
+* {font-family: Arial, Trebuchet MS; font-size: 12px;}
+body {margin: 0 0 0 0; background-color: white; text-align: center;}
+
+a { color: #2569A1; text-decoration: none; }
+a:hover { color: orange; }
+
+.logo { padding: 15px; font-size: 20px; float: left; }
+
+
+.menu { background-color: white; padding: 3px; text-align: center; margin: 0px 5px; float: right;}
+.menu ul, .menu li { list-style: none; margin: 0px; padding: 0px; }
+.menu li { padding: 0px 10px; display: inline; }
+.menu a{ font-size: 15px; font-weight: bold; }
+.menu a:hover{ border-bottom: 2px solid #FFC65C; }
+
+
+.accountmenu { background-color: #F8F8F8; }
+.accountmenu ul, .accountmenu li { list-style: none; margin: 0px; padding: 0px; }
+.accountmenu li { padding: 4px 10px; display: block; border-top: 1px solid #eeeeee;  }
+
+.copyright { padding: 5px; text-align: right; color: black; }
+.copyright a { color: black; padding-left: 20px;}
+
+.admincopyright { padding: 5px; text-align: right; color: black; }
+.admincopyright a { color: black; padding-left: 20px;}
+
+hr { display: none; }
+
+.container { text-align: left; background-color: white; border-bottom: 2px solid #e8e8e8; border-top: 2px solid #e8e8e8; }
+.mainWrapper { width: 820px;  margin: 10px auto;}
+
+.sidePanel { text-align: center; width: 180px !important; }
+.bannerCont { text-align: center; }
+
+.contentBox { border: 1px solid #e8e8e8; text-align: left; margin-bottom: 5px;}
+.contentBox h2 { color: black; font-size: 12px; background-color: #e8e8e8; padding: 2px 5px; border: 1px solid white; margin: 0px; }
+.contentBox .content { border-top: 1px solid #e8e8e8; padding: 5px; }
+
+
+.siteStats ul { list-style: none; margin: 0px; padding: 0px; }
+.siteStats li { list-style: none; padding: 4px 0px; margin: 2px; display: block; float: left; border: 1px solid #eeeeee; width: 77px;   text-align: center; }
+.siteStats span { display: block; }
+.siteStats br {clear: left; }
+
+
+#userMenu ul {
+	margin: 0px;
+	padding: 0px 0px 0px 8px;
+}
+#userMenu ul li {
+	margin: 20px 0px 0px 20px;
+	padding: 0px;
+	list-style: none;
+	display: block;
+	float: left;
+	width: 107px;
+	height: 107px;
+	background: url("images/userMenuBg.png") top left no-repeat;
+}
+#userMenu ul li a {
+	display: block;
+	float: left;
+	width: 107px;
+	height: 107px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+#userMenu ul li a span {
+	display: block;
+	padding-top: 77px;	
+}
+
+#userMenu {
+	
+}
+
+#userMenu ul li a { background: center 15px no-repeat; }
+
+#userMenu ul li.um_account a { background-image: url("images/um_account.png"); }
+#userMenu ul li.um_withdraw a { background-image: url("images/um_withdraw.png"); }
+#userMenu ul li.um_surf a { background-image: url("images/um_surf.png"); }
+#userMenu ul li.um_manage a { background-image: url("images/um_manage.png"); }
+#userMenu ul li.um_downline a { background-image: url("images/um_downline.png"); }
+#userMenu ul li.um_logout a { background-image: url("images/um_logout.png"); }
+
+#userMenu ul li.um_credit_card a { background-image: url("images/1/credit_card.png"); }
+
+#userMenu ul li.um_cart a { background-image: url("images/1/insert_to_shopping_cart.png"); }
+
+
+
+#userMenu ul li.um_refresh a { background-image: url("images/1/refresh.png"); }
+#userMenu ul li.um_pstore a { background-image: url("images/1/pstore.png"); }
+#userMenu ul li.um_lott a { background-image: url("images/1/lottery.png"); }
+#userMenu ul li.um_report a { background-image: url("images/1/report.png"); }
+
+#userMenu ul li.um_coins a { background-image: url("images/1/coins.png"); }
+
+#userMenu ul li.um_aspec a { background-image: url("images/1/assignspec.png"); }
+
+#userMenu ul li.um_arefs a { background-image: url("images/1/assignrefs.png"); }
+
+#userMenu ul li.um_pie_chart a { background-image: url("images/1/pie_chart.png"); }
+
+#userMenu ul li.um_country a { background-image: url("images/1/geoip_icon.png"); }
+
+#userMenu ul li.um_search a { background-image: url("images/1/search_page.png"); }
+
+#userMenu ul li.um_bk a { background-image: url("images/1/kpackage.png"); }
+
+#userMenu ul li.um_cheat a { background-image: url("images/cheaters.png"); }
+
+#userMenu ul li.um_kwik a { background-image: url("images/1/kwikdisk.png"); }
+
+#userMenu ul li.um_mailsend a { background-image: url("images/1/mail_send.png"); }
+#userMenu ul li.um_message a { background-image: url("images/1/TextALT.png"); }
+
+#userMenu ul li.um_delete a { background-image: url("images/1/delete.png"); }
+
+#userMenu ul li.um_edit a { background-image: url("images/1/edit_profile.png"); }
+
+#userMenu ul li.um_foot a { background-image: url("images/1/footprint.png"); }
+
+#userMenu ul li.um_help a { background-image: url("images/1/help_balloon.png"); }
+
+#userMenu ul li.um_penduser a { background-image: url("images/1/id_card.png"); }
+
+#userMenu ul li.um_mspec a { background-image: url("images/1/sale_icon.png"); }
+#userMenu ul li.um_faq a { background-image: url("images/1/tablet.png"); }
+
+
+
+
+
+
+#userMenu1 ul {
+	margin: 0px;
+	padding: 0px 0px 0px 8px;
+}
+#userMenu1 ul li {
+	margin: 20px 0px 0px 20px;
+	padding: 0px;
+	list-style: none;
+	display: block;
+	float: left;
+	width: 107px;
+	height: 107px;
+	background: url("images/userMenuBg.png") top left no-repeat;
+}
+#userMenu1 ul li a {
+	display: block;
+	float: left;
+	width: 107px;
+	height: 107px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+#userMenu1 ul li a span {
+	display: block;
+	padding-top: 77px;	
+}
+
+#userMenu1 {
+	
+}
+
+#userMenu1 ul li a { background: center 15px no-repeat; }
+
+
+#userMenu1 ul li.um_account a { background-image: url("images/1/um_account.png"); }
+#userMenu1 ul li.um_topd a { background-image: url("images/1/topdomain.png"); }
+#userMenu1 ul li.um_sset a { background-image: url("images/1/settings.png"); }
+#userMenu1 ul li.um_withdraw a { background-image: url("images/1/um_withdraw.png"); }
+#userMenu1 ul li.um_mailm a { background-image: url("images/1/mailm.png"); }
+#userMenu1 ul li.um_surf a { background-image: url("images/1/um_surf.png"); }
+#userMenu1 ul li.um_manage a { background-image: url("images/1/um_manage.png"); }
+#userMenu1 ul li.um_downline a { background-image: url("images/1/um_downline.png"); }
+#userMenu1 ul li.um_logout a { background-image: url("images/1/um_logout.png"); }
+#userMenu1 ul li.um_target a { background-image: url("images/1/target.png"); }
+#userMenu1 ul li.um_admess a { background-image: url("images/1/admessage.png"); }
+#userMenu1 ul li.um_contest a { background-image: url("images/1/contest.png"); }
+#userMenu1 ul li.um_eterms a { background-image: url("images/1/termsmanage.png"); }
+
+
+

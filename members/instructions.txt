@@ -1,0 +1,27 @@
+Instructions
+
+(1) Upload shoppingcenter.php to the members directory.
+(2) Create a link to the page in the template 
+<a href=\"index.php?view=account&ac=shoppingcenter&".$url_variables."\" title=\"View Profile\">Trading</a>
+
+
+
+Wollah, You done.
+
+
+Version 1.0 , All updates will be free.
+
+
+
+
+
+
+
+
+To remove the copyright link, make any donation to admin@flashurcash.com  Via Paypal.
+
+
+Your transaction ID will be the key if/when asked for.
+
+
+~ Thanks

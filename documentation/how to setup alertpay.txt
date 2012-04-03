@@ -1,0 +1,14 @@
+How to setup Alertpay IPN
+--------------------------
+1. Goto "My profile"
+2. Click "Business Account Information"
+3. Click Add
+4. Fill out the form using an email address relating to your site, such as sales@domain.com.
+5. Under IPN Setup:
+	a. Check "Enable IPN"
+	b Set the alert URL to:
+		http://www.your-domain.com/payment.php
+	c. Enter a security Code.
+6. Submit the form.
+7. After this business is added, go back into it by clicking "edit"
+8. Scroll down and copy the "Encrypted Security Code". Save this code to your website's settings.

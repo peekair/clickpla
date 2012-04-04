@@ -983,13 +983,17 @@ var currency = \"$cursym \";
 			<td>
 				<select name=\"proc\">
 					$proclisting
-				</select><br /><sup>*All Methods Are Instant!</sup>
+				</select>
 			</td>
 		</tr>
 		<tr>
 			<td align=\"center\" colspan=2><input type=\"submit\" value=\"Next Step =>\"></td>
 		</tr>
 	</table>
+
+	<p>
+	Your first order must be manually approved, all your future orders thereafter will be instant.
+	</p>
 </form>
 </div>
 <script>

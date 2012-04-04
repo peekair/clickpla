@@ -53,11 +53,10 @@ Activation Code: <input type=\"text\" name=\"id\" value=\"$id\"><br />
 
 <input type=\"submit\" value=\"Activate Account\">
 </form>
-
-<li><a href=\"index.php?view=resend_act\">Resend Activation Code</a>
-<li><a href=\"index.php?view=update_email\">Change My Email Address</a>
-
-<br /><br />
+<ul>
+	<li><a href=\"index.php?view=resend_act\">Resend Activation Code</a></li>
+	<li><a href=\"index.php?view=update_email\">Change My Email Address</a></li>
+</ul>
 <div align=\"left\">
 <b>Important!</b><br />
 If you are using any sort of spam blocker or filters, please make sure that the email address $settings[admin_email] has persmission to send you email or you will not be able to activate your account! In most cases, adding <i>$settings[admin_email]</i> to your contact list will keep it from being blocked.

@@ -1,3 +1,7 @@
+$color-blue: #0045a5;
+$color-green: #417441;
+$button-green: #3fab05;
+
 @import "libs/reset.scss";
 @import "libs/elements.scss";
 
@@ -163,13 +167,13 @@ ul.ticker li {
   box-shadow: 0 0 5px #666666;
   border: 1px solid #575757;
   background-color: #d6d7d7;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   &.feature {
     h2 {
       background-color: #417441; }
     .content, img {
       text-align: center;
-      height: 60px; }
+    }
     .inner {
       margin: 15px; } }
   h2 {
@@ -253,6 +257,8 @@ ul.ticker li {
 
 .bottomBanner, .bottomContent {
   width: 100%;
+  margin-top: 20px; 
+  margin-bottom: 20px;
   text-align: center; }
 
 /* line 217, ../sass/default.scss */
@@ -308,7 +314,7 @@ input {
     margin: 10px 0; } }
 
 
-.ptcWrapper {
+.zebra1, .zebra2 {
   img {
     height: 60px;
     width: 300px; }
@@ -319,3 +325,41 @@ input {
 #adHitz {
   text-align: center;
   height: 60px; }
+
+a.button{
+    @include rounded(5px);
+    @include  box-shadow ( 0 0 5px 0px #000);
+    padding: 10px 15px;
+    background: $button-green;
+    border: 2px groove #000;
+    color: #FFF;  
+    &:link{
+      color: #FFF;  
+    }
+}
+.advspecial{
+  @include rounded(10px);
+  border: 1px solid gray;
+  text-align: center;
+  margin: 20px;
+  background-image: url(/images/special-offer-big.jpg);
+  background-repeat:no-repeat;
+  background-position: 10px 50px;
+  background-color: #FFF;
+  h2{
+    @include border-radius(10px, 0, 0, 10px);
+    background-color: red;
+ }
+  ul{
+    width: 250px;
+    text-align: left;
+    margin: 20px auto 5px;
+  }
+  .buyNow{
+    padding: 20px 0 30px;
+    a{
+      margin: 0 20px;
+      font-weight: bold;
+    }
+  }
+}

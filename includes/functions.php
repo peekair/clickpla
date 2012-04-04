@@ -541,11 +541,11 @@ function advspecial( )
             $cursym = "€";
         }
         return "<div class=\"advspecial\">
-        <h1>{$special['title']}</h1>
-        <ul>{$feats}</ul>
-        <div>
-        	<a href=\"index.php?view=account&ac=buywizard&step=2&samount=1&ptype=special&id={$special['id']}&".$url_variables."\" class=\"button\">Click Here To Buy Now For {$cursym}".$tpackages[0] * $special[price]."!</a>
-        </div>
+            <h2>{$special['title']}</h2>
+                <ul>{$feats}</ul>
+                <div class=\"buyNow\">
+       	            <a href=\"index.php?view=account&ac=buywizard&step=2&samount=1&ptype=special&id={$special['id']}&".$url_variables."\" class=\"button\">Click Here To Buy Now For {$cursym}".$tpackages[0] * $special[price]."!</a>
+                </div>
         </div>";
     }
     return false;

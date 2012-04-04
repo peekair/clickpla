@@ -358,7 +358,7 @@ $lboard</div></center><br>")."
 			<div class=\"accountRightCont\">
 			<div style=\" padding: 5px;\" id=\"dropBoxContMain\">
 
-                                       <p align=\"center\"><img src=/images/profimg1.jpg></p>
+                                       <p align=\"center\"><img src=/images/logo.png></p>
 					<div id=\"profileAccount\" class=\"dropBoxCont\">
 						<table class=\"tableStyle2\" style=\"width: 100%\">
 							<tr>

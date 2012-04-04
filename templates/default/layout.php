@@ -155,17 +155,12 @@
         <? echo get_content("Featured Ads","$fadslist"); ?>
 
       </div>
+
+    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4f6f11b232bdfb17"></script>
+
     </div>
 
-<!--
-<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4f6f11b232bdfb17"></script>
--->
-
-
-<!--     <div class='topBanner clear'><?$pagebanner648 = get_banner();?><? echo $pagebanner648; ?>   </div>  -->
-
-
-
+  
   </div>
 
 
@@ -204,7 +199,7 @@
 
 </body>
 <div class="adHitz">
-<script type="text/javascript" src="http://adhitzads.com/422683"></script><script type="text/javascript" src="http://adhitzads.com/422765"></script>
+  <script type="text/javascript" src="http://adhitzads.com/430626"></script><script type="text/javascript" src="http://adhitzads.com/422765"></script>
 </div>
 
 </html>

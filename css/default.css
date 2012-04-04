@@ -582,21 +582,21 @@ td {
 
     More info at: http://lesselements.com
 -----------------------------------------------------*/
-/* line 5, ../sass/default.scss */
+/* line 9, ../sass/default.scss */
 body {
   background-color: #FFF;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
 }
 
-/* line 11, ../sass/default.scss */
+/* line 15, ../sass/default.scss */
 a {
   font-size: 14px;
   color: #000;
   text-decoration: none;
 }
 
-/* line 17, ../sass/default.scss */
+/* line 21, ../sass/default.scss */
 ul.inline {
   display: inline-block;
   zoom: 1;
@@ -604,7 +604,7 @@ ul.inline {
   margin: 0;
   padding: 0;
 }
-/* line 23, ../sass/default.scss */
+/* line 27, ../sass/default.scss */
 ul.inline > li {
   margin: 0;
   display: inline-block;
@@ -612,42 +612,42 @@ ul.inline > li {
   *display: inline;
 }
 
-/* line 29, ../sass/default.scss */
+/* line 33, ../sass/default.scss */
 dl li {
   list-style: none;
 }
 
-/* line 33, ../sass/default.scss */
+/* line 37, ../sass/default.scss */
 .block {
   display: block;
   margin: 0;
   padding: 0;
 }
-/* line 37, ../sass/default.scss */
+/* line 41, ../sass/default.scss */
 .block > li {
   display: block;
   margin: 0;
   padding: 0;
 }
 
-/* line 43, ../sass/default.scss */
+/* line 47, ../sass/default.scss */
 .page {
   width: 960px;
   margin: 0 auto;
 }
 
-/* line 48, ../sass/default.scss */
+/* line 52, ../sass/default.scss */
 ul.ticker li {
   margin: 0 10px;
 }
 
-/* line 52, ../sass/default.scss */
+/* line 56, ../sass/default.scss */
 #footer {
   text-align: center;
   margin-bottom: 20px;
   color: #222;
 }
-/* line 56, ../sass/default.scss */
+/* line 60, ../sass/default.scss */
 #footer .footerLinks {
   -webkit-box-shadow: 0 1px 5px black;
   -moz-box-shadow: 0 1px 5px black;
@@ -656,45 +656,45 @@ ul.ticker li {
   padding: 5px 0;
   position: relative;
 }
-/* line 63, ../sass/default.scss */
+/* line 67, ../sass/default.scss */
 #footer .footerLinks a {
   color: #FFF;
 }
-/* line 65, ../sass/default.scss */
+/* line 69, ../sass/default.scss */
 #footer .copyright {
   background: none repeat scroll 0 0 #417441;
   padding: 5px 0;
 }
 
-/* line 70, ../sass/default.scss */
+/* line 74, ../sass/default.scss */
 #memberHeader {
   margin-bottom: 5px;
 }
-/* line 72, ../sass/default.scss */
+/* line 76, ../sass/default.scss */
 #memberHeader #mh_links {
   float: right;
 }
 
-/* line 76, ../sass/default.scss */
+/* line 80, ../sass/default.scss */
 .footerLinks #mh_links {
   float: right;
 }
 
-/* line 80, ../sass/default.scss */
+/* line 84, ../sass/default.scss */
 #memberHeader a, .footerLinks a {
   margin: 0 10px;
 }
 
-/* line 84, ../sass/default.scss */
+/* line 88, ../sass/default.scss */
 #header {
   background-color: #0045a5;
   margin-top: 10px;
 }
-/* line 87, ../sass/default.scss */
+/* line 91, ../sass/default.scss */
 #header .logo {
   float: left;
 }
-/* line 89, ../sass/default.scss */
+/* line 93, ../sass/default.scss */
 #header .head {
   -webkit-box-shadow: 0 1px 5px black;
   -moz-box-shadow: 0 1px 5px black;
@@ -702,26 +702,26 @@ ul.ticker li {
   background-image: url(/images/bg.png);
   position: relative;
 }
-/* line 95, ../sass/default.scss */
+/* line 99, ../sass/default.scss */
 #header .head .inner {
   position: relative;
 }
-/* line 97, ../sass/default.scss */
+/* line 101, ../sass/default.scss */
 #header .head #bannerTop {
   position: absolute;
   right: 20px;
   bottom: 20px;
 }
-/* line 101, ../sass/default.scss */
+/* line 105, ../sass/default.scss */
 #header .inner {
   width: 960px;
   margin: 0 auto;
 }
-/* line 104, ../sass/default.scss */
+/* line 108, ../sass/default.scss */
 #header #navigation {
   background-color: #417441;
 }
-/* line 106, ../sass/default.scss */
+/* line 110, ../sass/default.scss */
 #header #navigation ul.navigation {
   display: inline-block;
   zoom: 1;
@@ -730,25 +730,25 @@ ul.ticker li {
   float: right;
   margin: 6px 0;
 }
-/* line 113, ../sass/default.scss */
+/* line 117, ../sass/default.scss */
 #header #navigation ul.navigation > li {
   margin: 0;
   display: inline-block;
   zoom: 1;
   *display: inline;
 }
-/* line 118, ../sass/default.scss */
+/* line 122, ../sass/default.scss */
 #header #navigation ul.navigation a, #header #navigation ul.navigation li {
   color: #FFF;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 15px;
 }
-/* line 123, ../sass/default.scss */
+/* line 127, ../sass/default.scss */
 #header #navigation ul.navigation a {
   margin: 0 10px;
 }
-/* line 125, ../sass/default.scss */
+/* line 129, ../sass/default.scss */
 #header .statistics {
   -webkit-box-shadow: 0 1px 5px black inset;
   -moz-box-shadow: 0 1px 5px black inset;
@@ -756,24 +756,24 @@ ul.ticker li {
   background-color: #575757;
   padding: 2px;
 }
-/* line 131, ../sass/default.scss */
+/* line 135, ../sass/default.scss */
 #header .statistics .inner {
   overflow: hidden;
 }
 
-/* line 136, ../sass/default.scss */
+/* line 140, ../sass/default.scss */
 #main #content {
   width: 705px;
   margin-right: 15px;
   float: left;
 }
-/* line 140, ../sass/default.scss */
+/* line 144, ../sass/default.scss */
 #main #sidebar {
   width: 240px;
   float: left;
 }
 
-/* line 145, ../sass/default.scss */
+/* line 149, ../sass/default.scss */
 .contentBox {
   -webkit-border-top-right-radius: 0;
   -webkit-border-bottom-right-radius: 10px;
@@ -795,22 +795,21 @@ ul.ticker li {
   box-shadow: 0 0 5px #666666;
   border: 1px solid #575757;
   background-color: #d6d7d7;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
-/* line 168, ../sass/default.scss */
+/* line 172, ../sass/default.scss */
 .contentBox.feature h2 {
   background-color: #417441;
 }
-/* line 170, ../sass/default.scss */
+/* line 174, ../sass/default.scss */
 .contentBox.feature .content, .contentBox.feature img {
   text-align: center;
-  height: 60px;
 }
-/* line 173, ../sass/default.scss */
+/* line 177, ../sass/default.scss */
 .contentBox.feature .inner {
   margin: 15px;
 }
-/* line 175, ../sass/default.scss */
+/* line 179, ../sass/default.scss */
 .contentBox h2 {
   color: #FFF;
   position: relative;
@@ -823,12 +822,12 @@ ul.ticker li {
   line-height: 28px;
   text-shadow: 1px -1px 0px black;
 }
-/* line 186, ../sass/default.scss */
+/* line 190, ../sass/default.scss */
 .contentBox .wrap {
   overflow: hidden;
   padding-bottom: 10px;
 }
-/* line 189, ../sass/default.scss */
+/* line 193, ../sass/default.scss */
 .contentBox .inner {
   margin: 5px 15px 15px;
 }
@@ -840,13 +839,13 @@ ul.ticker li {
 /* line 169, ../sass/default.scss */
 /* line 173, ../sass/default.scss */
 /* line 180, ../sass/default.scss */
-/* line 206, ../sass/default.scss */
+/* line 210, ../sass/default.scss */
 .panels h2 {
   background-color: red;
 }
 
 /* line 187, ../sass/default.scss */
-/* line 211, ../sass/default.scss */
+/* line 215, ../sass/default.scss */
 #sidebar .contentBox {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -857,7 +856,7 @@ ul.ticker li {
   border: 1px solid #575757;
   background-color: #FFF;
 }
-/* line 220, ../sass/default.scss */
+/* line 224, ../sass/default.scss */
 #sidebar .contentBox h2 {
   -webkit-border-top-right-radius: 7px;
   -webkit-border-bottom-right-radius: 0;
@@ -884,7 +883,7 @@ ul.ticker li {
   text-shadow: 1px -1px 0px black;
   box-shadow: none;
 }
-/* line 245, ../sass/default.scss */
+/* line 249, ../sass/default.scss */
 #sidebar .contentBox .inner {
   margin: 15px;
 }
@@ -892,38 +891,40 @@ ul.ticker li {
 /* line 191, ../sass/default.scss */
 /* line 203, ../sass/default.scss */
 /* line 212, ../sass/default.scss */
-/* line 254, ../sass/default.scss */
+/* line 258, ../sass/default.scss */
 .bottomBanner, .bottomContent {
   width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
 /* line 217, ../sass/default.scss */
-/* line 260, ../sass/default.scss */
+/* line 266, ../sass/default.scss */
 .refstat {
   text-align: left;
 }
 
 /* line 221, ../sass/default.scss */
-/* line 265, ../sass/default.scss */
+/* line 271, ../sass/default.scss */
 .lottery-rates {
   margin-top: 15px;
 }
 
 /* line 226, ../sass/default.scss */
-/* line 271, ../sass/default.scss */
+/* line 277, ../sass/default.scss */
 .form.signupForm p {
   margin: 0;
 }
-/* line 273, ../sass/default.scss */
+/* line 279, ../sass/default.scss */
 .form.signupForm div {
   margin-bottom: 10px;
 }
-/* line 275, ../sass/default.scss */
+/* line 281, ../sass/default.scss */
 .form.signupForm label {
   display: block;
 }
-/* line 277, ../sass/default.scss */
+/* line 283, ../sass/default.scss */
 .form.signupForm p {
   color: green;
 }
@@ -932,20 +933,20 @@ ul.ticker li {
 /* line 232, ../sass/default.scss */
 /* line 235, ../sass/default.scss */
 /* line 241, ../sass/default.scss */
-/* line 290, ../sass/default.scss */
+/* line 296, ../sass/default.scss */
 table.loginTable input[type=text], table.loginTable input[type=password] {
   margin-bottom: 5px;
 }
-/* line 292, ../sass/default.scss */
+/* line 298, ../sass/default.scss */
 table.loginTable .ip-lock {
   text-align: right;
 }
 
-/* line 297, ../sass/default.scss */
+/* line 303, ../sass/default.scss */
 input[type=text], input[type=password], input[type=pin] {
   padding: 5px 10px;
 }
-/* line 299, ../sass/default.scss */
+/* line 305, ../sass/default.scss */
 input[type="submit"] {
   background: #399805;
   border: 2px outset #666666;
@@ -958,18 +959,90 @@ input[type="submit"] {
   margin: 10px 0;
 }
 
-/* line 312, ../sass/default.scss */
-.ptcWrapper img {
+/* line 318, ../sass/default.scss */
+.zebra1 img, .zebra2 img {
   height: 60px;
   width: 300px;
 }
-/* line 315, ../sass/default.scss */
-.ptcWrapper .zebra1 {
+/* line 321, ../sass/default.scss */
+.zebra1 .zebra1, .zebra2 .zebra1 {
   background-color: silver;
 }
 
-/* line 319, ../sass/default.scss */
+/* line 325, ../sass/default.scss */
 #adHitz {
   text-align: center;
   height: 60px;
+}
+
+/* line 329, ../sass/default.scss */
+a.button {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 0 5px 0px black;
+  -moz-box-shadow: 0 0 5px 0px black;
+  box-shadow: 0 0 5px 0px black;
+  padding: 10px 15px;
+  background: #3fab05;
+  border: 2px groove #000;
+  color: #FFF;
+}
+/* line 336, ../sass/default.scss */
+a.button:link {
+  color: #FFF;
+}
+
+/* line 340, ../sass/default.scss */
+.advspecial {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid gray;
+  text-align: center;
+  margin: 20px;
+  background-image: url(/images/special-offer-big.jpg);
+  background-repeat: no-repeat;
+  background-position: 10px 50px;
+  background-color: #FFF;
+}
+/* line 349, ../sass/default.scss */
+.advspecial h2 {
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-topleft: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: red;
+}
+/* line 353, ../sass/default.scss */
+.advspecial ul {
+  width: 250px;
+  text-align: left;
+  margin: 20px auto 5px;
+}
+/* line 358, ../sass/default.scss */
+.advspecial .buyNow {
+  padding: 20px 0 30px;
+}
+/* line 360, ../sass/default.scss */
+.advspecial .buyNow a {
+  margin: 0 20px;
+  font-weight: bold;
 }

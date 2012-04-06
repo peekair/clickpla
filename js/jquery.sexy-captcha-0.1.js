@@ -2,7 +2,7 @@
  * Sexy Captcha v.0.2
  * Designed and developed by: BWM Media (bwmmedia.com)
  */
-(function($) {
+;(function($) {
 	$.fn.sexyCaptcha = function(url) {
 		this.each(function() {
 			$(this).load(url, { action: 'refresh' }, function() {

@@ -249,7 +249,7 @@ else {
 	$reff=$ref;
 }
 
-if($error != "") $includes[content].="<div class=\"error\">Error: $error</div>";
+if($error != "") $includes[content].="<div class=\"error\"><p>Error: $error<p></div>";
 if($settings[login_router2]==1){
 //	srand((double)microtime()*1000000);
 //	$number = rand(1000,9999);
@@ -273,26 +273,28 @@ $cp="<img src=\"router.php?rid=$rid\"><br />
 }
 
 ?>
-<form action="index.php?view=join&amp;action=join&amp;<?=$url_variables;?>" method="post">
+<form id="join" action="index.php?view=join&amp;action=join&amp;<?=$url_variables;?>" method="post">
 <fieldset class="form signupForm">
 	<h3>Account Details</h3>
 	<div><label for="uUsername">Username</label> <input type="text" name="uUsername" id="uUsername" value="<?=$uUsername;?>" onkeyup="nospaces(this)"/><br /><p>Please select a unique username. You may only use letters and numbers.</p></div>
 	<div><label for="uPassword">Password</label> <input type="password" name="uPassword" id="uPassword" value="<?=$uPassword;?>" />
 	<br /><p>Please choose a unique password for your account.</p></div>
 	<div><label for="uVPassword">Verify Password</label> <input type="password" name="uVPassword" id="uVPassword" value="<?=$uVPassword;?>" /><br /><p>Please re-enter your password.</p></div>
-	<div><label for="uPassword">Personal Pin</label> <input type="pin" name="uPin" id="uPin" value="<?=$uPin;?>" /><br /><p>Please choose a unique personal pin for your account.<br>This will be used for withdrawals and updates to your account.</p></div>
-	<div><label for="uVPassword">Verify Personal Pin</label> <input type="pin" name="uVPin" id="uVPin" value="<?=$uVPin;?>" /><br /><p>Please re-enter your pin.</p></div>
-	<div><label for="reff">Referrer</label> <? echo ($reff==""?"<input type=\"text\" name=\"reff\" value=\"$reff\" />":"<input type=\"hidden\" name=\"reff\" value=\"$reff\" />$reff"); ?><br /><p>The member who referred you.</p></div>
+	<div><label for="uPassword">Personal Pin</label> <input type="text" name="uPin" id="uPin" value="<?=$uPin;?>" /><br /><p>Please choose a unique personal pin for your account.<br>This will be used for withdrawals and updates to your account.</p></div>
+	<div><label for="uVPassword">Verify Personal Pin</label> <input type="text" name="uVPin" id="uVPin" value="<?=$uVPin;?>" /><br /><p>Please re-enter your pin.</p></div>
+	<div><label for="reff">Referrer</label> <? echo ($reff==""?"<input type=\"text\" name=\"reff\" value=\"$reff\" />":"<input type=\"hidden\" name=\"reff\" value=\"$reff\" /> $reff"); ?><br /><p>The member who referred you.</p></div>
 	<h3>Personal Details</h3>
 	<div><label for="uName">Your Name</label> <input type="text" name="uName" id="uName" value="<?=$uName;?>" /><br /><p>Please enter your full name.</p></div>
 	<div><label for="uEmail">Your Email Address</label> <input type="text" name="uEmail" id="uEmail" value="<?=$uEmail;?>" /><br /><p>We will send you an activation email so be sure to enter a valid and current address.</p></div>
 	<h3>Legal</h3>
 	<div><label for="">I accept the <a href="index.php?view=terms&amp;<?=$url_variables;?>">Terms of Service</a></label>
 		<select name="uTerms" id="uTerms">
-			<option value="" selected="selected"></option>
+			<option value="" selected="selected">Select</option>
 			<option value="no">No, I Do Not Accept</option>
 			<option value="yes">Yes, I Accept</option>
-		</select><br /><p>Please take a moment and read the terms of service.</p></div>
+		</select>
+		<div><p>Please take a moment and read the terms of service.</p></div>
+	</div>
 </fieldset>
 <center><?
 require_once('./includes/recaptchalib.php');

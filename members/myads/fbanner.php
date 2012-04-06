@@ -125,7 +125,7 @@ function show_new_form() {
 ".iif(isset($error_msg),"<script>alert('$error_msg');</script>")."
 <div align=\"center\" style=\"display: none\" id=\"new_ad\">
 <form action=\"index.php?view=account&ac=myads&adtype=fbanner&action=add&".$url_variables."\" method=\"post\" onSubmit=\"submitonce(this)\">
-<div style=\" width: 300px;\">
+<div>
 <b>New Featured Banner Ad</b>
 <table>
 	<tr>
@@ -137,8 +137,8 @@ function show_new_form() {
 		<td><input type=\"text\" name=\"target\" value=\"".htmlentities(stripslashes($target))."\"></td>
 	</tr>
 	<tr>
-		<td>Featured Banner Url: </td>
-		<td><input type=\"text\" name=\"banner\" value=\"".htmlentities(stripslashes($banner))."\"></td>
+		<td>Featured Banner Url:	 </td>
+		<td><input type=\"text\" name=\"banner\" value=\"".htmlentities(stripslashes($banner))."\"><br>Maximum size is 468x60 pixels</td>
 	</tr>
 	<tr>
 		<td>Daily Limit: </td>

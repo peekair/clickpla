@@ -18,7 +18,24 @@ $(function(){
 
 
 	$('ul.ticker').ticker();
-
 	$('#adHitz').html($('.adHitz').children());
+	// $('select').dropkick();
+
+	if($('form#join').length){
+		$('form#join').validate({
+			rules:{
+				uUsername:{required:true,minlength:4},
+				uPassword:{required:true,minlength:5},
+				uVPassword:{equalTo:'#uPassword'},
+				uPin:{required:true,minlength:4},
+				uVPin:{equalTo:'#uPin'},
+				uName:{required:true},
+				uEmail:{required:true,email:true},
+				uTerms:{required:true}
+			}
+		})
+
+	}
+
 })
 

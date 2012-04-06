@@ -1,4 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ -->
+<!DOCTYPE html>
 <html>
 <head>
   <title><?php echo $settings['site_title'] ." :: ". $includes['title']; ?></title> 
@@ -10,18 +12,14 @@
   <meta http-equiv=Content-Type content="text/html; charset=windows-1252"> 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <html xmlns="http://www.w3.org/1999/xhtml">
-<!--
-<link rel="stylesheet" type="text/css" href="templates/default/components.css">
-<link rel="stylesheet" type="text/css" href="includes/ajax/components.css">
-<link rel="stylesheet" type="text/css" href="templates/default/style.css">
--->
+
+<link rel="stylesheet" type="text/css" media="all" href="/css/sexy-captcha/captcha.css" />
 <link rel="stylesheet" type="text/css" href="css/default.css">
 
-<script type="text/javascript" src="/js/jquery.js"></script>
-<script type="text/javascript" src="/js/jquery-ui-1.7.2.custom.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/js/lib.min.js"></script>
 <script type="text/javascript" src="/js/default.js"></script>
-<script type="text/javascript" src="/js/jquery.sexy-captcha-0.1.js"></script>
-<link rel="stylesheet" type="text/css" media="all" href="/css/sexy-captcha/captcha.css" />
 
 </head>
 <div id="adHitz"></div>
@@ -198,8 +196,11 @@
 </div>
 
 </body>
+
+
 <div class="adHitz">
   <script type="text/javascript" src="http://adhitzads.com/430626"></script><script type="text/javascript" src="http://adhitzads.com/422765"></script>
 </div>
+
 
 </html>

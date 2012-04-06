@@ -72,13 +72,13 @@ function buyspecial(id,amount) {
 
 <table width=\"100%\" cellspacing=0 class=\"priceTable\">
 	<tr>
-		<th colspan=3 class=\"top\">Advertising</b></th>
+		<th colspan=3 class=\"top\"><h3>Advertising</h3></th>
 	</tr>";
 
 
 if($temp_bogo > 0) {
 	$includes[content].="
-	<th colspan=3 ></b>Buy 1 Get $temp_bogo Free</th>
+	<th colspan=3 >Buy 1 Get $temp_bogo Free</th>
 	";
 }
 
@@ -285,11 +285,11 @@ if($settings[sellfad] == 1) {
 		$includes[content].="
 
 	<tr>
-		<th colspan=3>Memberships</b></th>
+		<th colspan=3><h3>Memberships</h3></th>
 	</tr>";
 	if($temp_membership> 0) {
 	$includes[content].="
-	<th colspan=3 ></b>Buy 1 Get $temp_membership Free</th>
+	<th colspan=3 >Buy 1 Get $temp_membership Free</th>
 	";
 }
 
@@ -324,11 +324,11 @@ if($settings[sellfad] == 1) {
 		$includes[content].="
 
 	<tr>
-		<th colspan=3>Specials</b></th>
+		<th colspan=3><h3>Specials</h3></th>
 	</tr>";
 	if($temp_bogo> 0) {
 	$includes[content].="
-	<th colspan=3 ></b>Buy 1 Get $temp_bogo Free</th>
+	<th colspan=3 >Buy 1 Get $temp_bogo Free</th>
 	";
 }
 

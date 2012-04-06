@@ -4,7 +4,7 @@
                 <ul>
                     <li>Here at Click-Planet you can make money by visiting our sponsors.</li>
                     <li>Yes! We even pay you to visit our page.</li>
-                    <li>You can earn between \.001 and \.01 per clicks.</li>
+                    <li>You can earn between .001 and .01 per clicks.</li>
                     <li>You want to earn more? Of course you do.</li>
                     <li>You can refer your friends and increase your revenue.</li>
                     <li>Register now,what do you have to lose it's 100% FREE!</li>

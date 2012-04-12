@@ -9,7 +9,7 @@ $button-green: #3fab05;
 body {
   background-color: #FFF;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px; }
+  font-size: 12.5px; }
 
 
 a {
@@ -132,6 +132,7 @@ ul.ticker li {
         color: #FFF;
         text-decoration: none;
         text-transform: uppercase;
+        font-weight: bold;
         font-size: 15px; }
       a {
         margin: 0 10px; } } }

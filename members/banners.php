@@ -4,7 +4,8 @@ $includes[title]="Promotion";
 $bannerlist=array(
 	"http://www.$settings[domain_name]/banners/banner1.gif",
 	"http://www.$settings[domain_name]/banners/banner2.gif",
-	"http://www.$settings[domain_name]/banners/banner3.gif"
+	"http://www.$settings[domain_name]/banners/banner3.gif",
+	"http://www.$settings[domain_name]/banners/banner4.gif"
 );
 
 for($x=0; $x<count($bannerlist); $x++) {
